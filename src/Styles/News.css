@@ -1,0 +1,22 @@
+.thumbnail {
+  height: 200px; 
+  object-fit: cover; 
+}
+.text-decoration-none {
+  color: inherit; 
+  text-decoration: none !important; 
+}
+.card-body {
+  height: 200px;
+}
+.card-title {
+  padding-top: 5px;
+}
+.card-text {
+  color: rgb(109, 107, 106);
+  
+}
+.card-date {
+  padding-top: 40px;
+  color: rgb(180, 177, 173);
+}

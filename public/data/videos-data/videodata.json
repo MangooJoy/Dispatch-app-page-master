@@ -1,0 +1,84 @@
+{
+  "status": "ok",
+  "articles": [
+    {
+      "source": {
+        "id": 1,
+        "name": "Idol issue"
+      },
+      "author": "김미류 기자",
+      "title": "라이즈, '바라보면, 추위가 싹 가신다~' l RIIZE, 'Looking them, the cold goes away'[공항]",
+      "description": "그룹 'RIIZE(라이즈)'가 '2023 MAMA AWARDS' 일정을 위해 26일 오전 인천국제공항을 통해 일본 도쿄로 출국했다.",
+      "url": "#",
+      "urlToImage": "https://img.youtube.com/vi/WkyzaltuJvE/1.jpg",
+
+      "publishedAt": "2023. 11. 26.",
+      "content": "이날 멤버들 모두가 잘생긴 비주얼을 뽐내며 출국장으로 향했다. 스타일리시한 공항패션으로 취재진의 이목을 끌었다. 한편, '2023 MAMA AWARDS'는 오는 28~29일 이틀간 국내 시상식 최초로 일본 도쿄돔에서 그 막을 올린다. 행사는 Mnet뿐 아니라 유튜브 채널 Mnet K-POP을 비롯해 Mnet TV, KCON official, M2를 통해서도 전세계에 생중계될 예정이다."
+    },
+
+    {
+      "source": {
+        "id": 2,
+        "name": "Idol issue"
+      },
+      "author": "김미류 기자",
+      "title": "[LIVE] 엔시티드림, '인천국제공항 출국' l NCT DREAM, 'ICN INT Airport Departure'[공항]",
+      "description": "그룹 'NCT DREAM(엔시티드림)'이 해외 팬 사인회 일정을 위해 4일 오전 인천국제공항을 통해 중국 칭다오로 출국한다.",
+      "url": "#",
+      "urlToImage": "https://www.youtube.com/watch?v=WkyzaltuJvE",
+      "publishedAt": "2023. 11. 4.",
+      "content": "그룹 'NCT DREAM(엔시티드림)'이 해외 팬 사인회 일정을 위해 4일 오전 인천국제공항을 통해 중국 칭다오로 출국한다."
+    },
+    {
+      "source": {
+        "id": 3,
+        "name": "Idol issue"
+      },
+      "author": "김미류 기자",
+      "title": "아이브, '미모가, I AM 완벽이에요' l IVE, 'I AM, the perfection of beauty' [공항]",
+      "description": "걸그룹 '아이브' 해외 팬사인회 일정차 3일 오후 김포국제공항 국제선을 통해 일본 도쿄로 출국했다.",
+      "url": "#",
+      "urlToImage": "https://img.youtube.com/vi/M8g3tyeURmg/0.jpg",
+      "publishedAt": "2023. 11. 3.",
+      "content": "이날 '아이브' 멤버들은 러블리한 미모와 인형 같은 자태를 뽐냈다."
+    },
+    {
+      "source": {
+        "id": 4,
+        "name": "Idol issue"
+      },
+      "author": "김미류 기자",
+      "title": "에스파, '출근길에 신곡 포인트 안무 스포' l æspa, 'Spoiler on the point dance of the new song ' [현장]",
+      "description": "걸그룹 '에스파(æspa)'가 2일 오전 고양시 일산동구 장한동 JTBC 스튜디오 일산에서 진행되는 JTBC '아는 형님' 녹화에 참석했다.",
+      "urlToImage": "https://img.youtube.com/vi/Znrlu8RFBBM/0.jpg",
+      "publishedAt": "2023. 11. 4.",
+      "content": "이날 멤버들은 스쿨룩으로 러블리한 자태를 뽐냈다. 출근길 포토타임을 가지며 신곡 포인트 안무 스포했다."
+    },
+    {
+      "source": {
+        "id": 5,
+        "name": "Idol issue"
+      },
+      "author": "김미류 기자",
+      "title": "르세라핌, '모든게 완벽, 퍼펙트 모닝' l LE SSERAFIM, 'Everything is perfect. Perfect morning' [공항]",
+      "description": "'르세라핌' 사쿠라, 허윤진, 카즈하, 홍은채가 해외 일정차 26일 오전 인천국제공항을 통해 미국 뉴욕으로 출국했다.",
+      "url": "#",
+      "urlToImage": "http://img.youtube.com/vi/DGPTVlw-x0Y/0.jpg",
+      "publishedAt": "2023. 10. 26.",
+      "content": "이날 네 멤버들은 아침부터 흠잡을 곳 없는 완벽한 미모를 자랑했다."
+    },
+    {
+      "source": {
+        "id": 6,
+        "name": "Idol issue"
+      },
+      "author": "김미류 기자",
+      "title": "제니(블랙핑크), '올블랙으로 럭셔리한 시크미' l JENNIE(BLACKPINK), 'Luxurious chic in all black' [공항]",
+      "description": "'블랙핑크' 제니가 파리 패션위크 일정차 30일 오전 인천국제공항을 통해 프랑스 파리로 출국했다.",
+      "url": "#",
+      "urlToImage": "https://img.youtube.com/vi/s1amWglxYi4/0.jpg",
+      "publishedAt": "2023. 9. 30.",
+      "content": "이날 제니는 머리부터 발끝까지 올블랙 공항패션으로 럭셔리한 시크미를 발산했다. 스키니한 룩으로 인형 같은 몸매를 더 돋보이게 했다."
+    }
+  ]
+}
