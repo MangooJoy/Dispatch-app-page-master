@@ -1,48 +1,44 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import YouTube from "react-youtube";
+import { YouTubeProps } from "react-youtube";
 
-const LocalVideos = () => {
-  const [videos, setVideos] = useState([]);
+const Video = () => {
+  const opts = {
+    height: "400",
+    width: "640",
+    playerVars: {
+      autoplay: 1,
+    },
+  };
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get("/data/videos-data/videosdata.json");
-        setVideos(response.data.articles);
-      } catch (error) {
-        console.error(error);
-      }
-    };
-    fetchData();
-  }, []);
+  const videoIds = [
+    "WkyzaltuJvE",
+    "v_wITjyVzvM",
+    "M8g3tyeURmg",
+    "Znrlu8RFBBM",
+    "DGPTVlw-x0Y",
+    "s1amWglxYi4",
+  ];
+
+  const videos = videoIds.map((videoId, index) => (
+    <div key={index} style={{ flex: "0 0 50%", padding: "10px" }}>
+      <Link to={`/video/${videoId}`}>
+        <YouTube videoId={videoId} opts={opts} onReady={_onReady} />
+      </Link>
+    </div>
+  ));
 
   return (
-    <>
-      <div className="container">
-        <div className="row">
-          {videos &&
-            videos.map((article, index) => (
-              <div key={index} className="col-md-4 mb-4">
-                <Link to={`/VideoPage/${article.source.id}`}>
-                  <div className="card">
-                    <img
-                      className="card-img-top thumbnail"
-                      src={article.urlToImage}
-                      alt={article.title}
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">{article.title}</h5>
-                      <p className="card-text">{article.author}</p>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            ))}
-        </div>
-      </div>
-    </>
+    <div>
+      <div style={{ display: "flex", flexWrap: "wrap" }}>{videos}</div>
+    </div>
   );
+
+  function _onReady(event) {
+    event.target.pauseVideo();
+  }
 };
 
-export default LocalVideos;
+export default Video;

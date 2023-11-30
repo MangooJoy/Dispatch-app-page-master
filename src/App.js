@@ -11,7 +11,6 @@ import Footer from "./Components/Footer";
 import ErrorPage from "./Pages/ErrorPage";
 import ArticlePage from "./Pages/ArticlePage";
 import PhotosPage from "./Pages/PhotosPage";
-import VideoPage from "./Pages/VideoPage";
 function App() {
   return (
     <>
@@ -25,7 +24,6 @@ function App() {
         <Route path="*" element={<ErrorPage />} />
         <Route path="/ArticlePage/:id" element={<ArticlePage />} />
         <Route path="/PhotosPage/:id" element={<PhotosPage />} />
-        <Route path="/VideoPage/:id" element={<VideoPage />} />
       </Routes>
       <Footer />
     </>
